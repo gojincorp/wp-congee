@@ -1,7 +1,7 @@
 <?php
 $EM_CONF[$_EXTKEY] = [
-   'title' => 'TYPO3 IB Sitepackage',
-   'description' => 'TYPO3 IB Sitepackage',
+   'title' => 'Congee Sitepackage',
+   'description' => 'Congee Sitepackage',
    'category' => 'templates',
    'author' => '...',
    'author_email' => '...',
