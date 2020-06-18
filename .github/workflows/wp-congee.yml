@@ -26,7 +26,7 @@ jobs:
       with:
         switches: -Oavzr --delete --exclude="config.yaml"
         path: ./
-        remote_path: /opt/bitnami/apps/typo3/htdocs/install/typo3conf/sites/congee
+        remote_path: /opt/bitnami/apps/typo3/htdocs/install/typo3conf/ext/congee
         remote_host: ${{ secrets.DEPLOY_HOST }}
         remote_user: ${{ secrets.DEPLOY_USER }}
         remote_key: ${{ secrets.DEPLOY_KEY }}
