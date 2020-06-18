@@ -1,0 +1,9 @@
+@import 'EXT:fluid_styled_content/Configuration/TypoScript/constants.typoscript'
+
+page {
+   fluidtemplate {
+      layoutRootPath = EXT:congee/Resources/Private/Layouts/Page/
+      partialRootPath = EXT:congee/Resources/Private/Partials/Page/
+      templateRootPath = EXT:congee/Resources/Private/Templates/Page/
+   }
+}
